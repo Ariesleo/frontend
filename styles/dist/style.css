@@ -3,20 +3,19 @@ html {
 }
 
 body {
-  background-color: green;
+  background-color: gray;
   font-style: italic;
   font-size: 1em;
 }
 
-div {
+div, p {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 50vh;
 }
 
-div.wala > h2 {
+div.wala, p {
   font-family: italic;
   font-size: 50px;
   font-weight: 100;

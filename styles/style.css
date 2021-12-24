@@ -22,10 +22,9 @@ div {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 50vh;
 }
 
-div.wala > h2 {
+div.wala, p {
   font-family: italic;
   font-size: 50px;
   font-weight: 100;

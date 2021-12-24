@@ -21,13 +21,16 @@ div {
 	// display: flex;
 	// justify-content: center;
 	// align-items: center;
-	height: 50vh;
 }
 
-div.wala > h2{
+div.wala{
 	font: {
 		family: italic;
 		size: 50px;
 		weight: 100;
 	}
+}
+
+p {
+	@extend div.wala 
 }
