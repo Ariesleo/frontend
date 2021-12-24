@@ -1,0 +1,25 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: green;
+  font-style: italic;
+  font-size: 1em;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 50vh;
+}
+
+div.wala > h2 {
+  font-family: italic;
+  font-size: 50px;
+  font-weight: 100;
+}
+
+/*# sourceMappingURL=style.css.map */

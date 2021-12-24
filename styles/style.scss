@@ -1,0 +1,33 @@
+@import "./variable";
+
+html {
+	font-size: 16px;
+}
+body {
+	background-color: $primary;
+	font-style: italic;
+	font-size: 1em;
+}
+
+@mixin flexCenter($direction) {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: $direction;
+}
+
+div {
+	@include flexCenter(column);
+	// display: flex;
+	// justify-content: center;
+	// align-items: center;
+	height: 50vh;
+}
+
+div.wala > h2{
+	font: {
+		family: italic;
+		size: 50px;
+		weight: 100;
+	}
+}

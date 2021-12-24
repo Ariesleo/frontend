@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["variable.scss"],"sourcesContent":["$primary: green;\n$secondary: yellow;\n"],"file":"variable.css"}

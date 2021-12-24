@@ -1,0 +1,33 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: gray;
+  font-style: italic;
+  font-size: 1em;
+}
+
+div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 50vh;
+}
+
+div.wala > h2 {
+  font-family: italic;
+  font-size: 50px;
+  font-weight: 100;
+}
+/*# sourceMappingURL=style.css.map */
